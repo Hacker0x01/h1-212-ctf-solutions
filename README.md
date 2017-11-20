@@ -3,6 +3,7 @@ This repository holds all of the writeups of the H1-212 Capture The Flag (CTF). 
 
 # List of writeups
  - [TomNomNom](https://twitter.com/tomnomnom): ["The CTF from \u000aHELL"](/writeups/tomnomnom.md)
+ - [Corb3nik](https://twitter.com/corb3nik): [Writeup](/writeups/corb3nik.md)
 
 # Contribute
 File a pull request with your writeup and add it to the **List of writeups** section. Writeups must be provided in [GFM](https://github.github.com/gfm/).
