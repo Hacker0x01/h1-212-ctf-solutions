@@ -505,7 +505,10 @@ $ curl -H "Content-Type: application/json" -b admin=yes http://admin.acme.org/re
 ```
 
 When I decoded the data section I could hardly believe it! The FLAG!!
+
+```
 FLAG: CF,2dsV\/]fRAYQ.TDEp`w"M(%mU;p9+9FD{Z48X*Jtt{%vS($g7\S):f%=P[Y@nka=<tqhnF<aq=K5:BC@Sb*{[%z"+@yPb/nfFna<e$hv{p8r2[vMMF52y:z/Dh;{6
+```
 
 Thank you SO MUCH for this awesome challenge! It was quite the brain teaser!
 
