@@ -5,6 +5,7 @@ This repository holds all of the writeups of the H1-212 Capture The Flag (CTF). 
  - [TomNomNom](https://twitter.com/tomnomnom): ["The CTF from \u000aHELL"](/writeups/tomnomnom.md)
  - [Corb3nik](https://twitter.com/corb3nik): [Writeup](/writeups/corb3nik.md)
  - [ysx](https://twitter.com/SecurityYasin): ["H1-212: capturing the HackerOne challenge flag"](/writeups/ysx.md)
+ - [003Random](https://twitter.com/rub003): [003Random's clean and newbie friendly write-up](/writeups/003Random.md)
  - [tompohl](https://twitter.com/tompohl): ["The h1-212 CTF"](/writeups/tompohl.md)
 
 
