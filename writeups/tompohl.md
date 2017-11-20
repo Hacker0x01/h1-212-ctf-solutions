@@ -223,6 +223,7 @@ Content-Type: text/html; charset=UTF-8
 ```
 
 Now, I feel confident that crafting a POST is the right direction to go since I still receive a 406 return code, but what now is making my request "Not Acceptable". At this point, I feel like I'm on the right track, but I'm a little lost as to where to go to next. Thinking that there might be other headers I need to tamper with, for some horrible reason, I decide that I should manipulate the User-Agent header. I grabbed a bunch of user-agents from a random GitHub repo and went to town with wfuzz again.
+
 https://github.com/nlf/browser-agents/blob/master/user_agents.txt
 
 ```
@@ -230,6 +231,7 @@ $ wfuzz -H "User-Agent: FUZZ" -b "admin=yes" -d "flag=true" -zfile,user_agents.t
 ```
 
 User agents didn't yield and different response codes from the site so I moved onto what *should* have been a more obvious choice of manipulating Content-Type. I found a decent list of popular Content-Types on GitHub and again used wfuzz to see if I could get the application to respond differently.
+
 https://gist.githubusercontent.com/gmetais/971ce13a1fbeebd88445/raw/c07b608facc01f1e2d276f8ce2469dff88735d4f/gzip-conf.txt
 
 ```
