@@ -2,6 +2,7 @@
 This repository holds all of the writeups of the H1-212 Capture The Flag (CTF). The winners will receive an invite to H1-212 on December 8 and 9 2017 in New York City.
 
 # List of writeups
+ - [Abiral](https://twitter.com/proabiral): ["h1-212 CTF writeup"](https://medium.com/@abiral/h1-212-ctf-writeup-7a859128671)
  - [TomNomNom](https://twitter.com/tomnomnom): ["The CTF from \u000aHELL"](/writeups/tomnomnom.md)
  - [Corb3nik](https://twitter.com/corb3nik): [Writeup](/writeups/corb3nik.md)
  - [ysx](https://twitter.com/SecurityYasin): ["H1-212: capturing the HackerOne challenge flag"](/writeups/ysx.md)
