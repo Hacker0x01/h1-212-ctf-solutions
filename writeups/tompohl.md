@@ -52,6 +52,7 @@ Content-Type: text/html
 ```
 
 Looks like it is running Apache/2.4.18. A quick google search finds 10 vulnerabilities with CVSS Scores ranging from 4.3-7.5 including the "named" vulnerability Optionsbleed.
+
 https://www.cvedetails.com/vulnerability-list/vendor_id-45/product_id-66/version_id-199589/Apache-Http-Server-2.4.18.html
 
 I tried the publicly available proof of concept exploits for each of the vulnerabilities and read through all the apache patches for the CVEs that didn't have public exploits, but determined that either this is going to be the most badass CTF where we'd need to write our own exploit or there is another way to manipulate a web app.
@@ -94,6 +95,7 @@ You really thought it would be that easy? Keep digging!
 ```
 
 Knowing that this the URL was referred to as an "admin panel" it seemed to me that there might be multiple virtual hosts hosted on the ip. To find some other potential hostnames, I turned to a GitHub project by Jobert Abma named virtual-host-discovery. Note that I told the tool to ignore content-length of 11321 which was returned when I originally telnetted to the host above.
+
 https://github.com/jobertabma/virtual-host-discovery
 
 Tool #2: virtual-host-discovery
