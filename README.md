@@ -8,6 +8,7 @@ This repository holds all of the writeups of the H1-212 Capture The Flag (CTF). 
  - [003Random](https://twitter.com/rub003): [003Random's clean and newbie friendly write-up](/writeups/003Random.md)
  - [tompohl](https://twitter.com/tompohl): ["The h1-212 CTF"](/writeups/tompohl.md)
  - [TnMch](https://twitter.com/chamli_mohamed): ["H1-212 Capture the flag"](/writeups/tnmch.md)
+ - [ret2got](https://twitter.com/ret2got): ["H1-Misery-CTF"](/writeups/ret2got.md)
 
 
 # Contribute
