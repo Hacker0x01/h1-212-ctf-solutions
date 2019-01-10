@@ -10,7 +10,7 @@ This repository holds all of the writeups of the H1-212 Capture The Flag (CTF). 
  - [TnMch](https://twitter.com/chamli_mohamed): ["H1-212 Capture the flag"](/writeups/tnmch.md)
  - [ret2got](https://twitter.com/ret2got): ["H1-Misery CTF"](/writeups/ret2got.md)
  - [jackds](https://twitter.com/jackds1986): ["H1-212 CTF Write-Up"](/writeups/H1-212CTF-jackds.md)
- - [ZetaTwo](https://twitter.com/ZetaTwo): ["H1-212 2017: Writeup"](/writeups/ZetaTwo.md)
+
 
 # Contribute
 File a pull request with your writeup and add it to the **List of writeups** section. Writeups must be provided in [GFM](https://github.github.com/gfm/).
